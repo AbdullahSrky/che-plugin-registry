@@ -13,3 +13,5 @@ firstPublicationDate: '2018-12-7'
 spec:
   extensions:
   - vscode:extension/vscjava.vscode-java-pack
+  containers:
+    - image: eclipse/che-remote-plugin-runner-java8
