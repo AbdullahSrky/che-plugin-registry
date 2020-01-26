@@ -1,0 +1,15 @@
+publisher: ms-vscode
+apiVersion: v2
+name: vscode-java-pack
+version: 0.8.1
+type: VS Code extension
+displayName: Java Extension Pack
+title: Java Extension Pack.
+description: Popular extensions for Java development and more.
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/Microsoft/vscode-java-pack
+category: Other
+firstPublicationDate: '2018-12-7'
+spec:
+  extensions:
+  - vscode:extension/vscjava.vscode-java-pack
