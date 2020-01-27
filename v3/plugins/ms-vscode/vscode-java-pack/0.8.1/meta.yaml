@@ -12,6 +12,11 @@ category: Other
 firstPublicationDate: '2018-12-7'
 spec:
   extensions:
-  - vscode:extension/vscjava.vscode-java-pack
-  containers:
-    - image: eclipse/che-remote-plugin-runner-java8
+  - vscode:extension/redhat.java
+  - vscode:extension/vscjava.vscode-java-debug
+  - vscode:extension/vscjava.vscode-java-test
+  - vscode:extension/vscjava.vscode-maven
+  - vscode:extension/vscjava.vscode-java-dependency
+  - vscode:extension/VisualStudioExptTeam.vscodeintellicode
+  attributes:
+    containerImage: "eclipse/che-remote-plugin-runner-java8"
